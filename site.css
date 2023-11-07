@@ -1,0 +1,173 @@
+
+body{
+    background-image: url("tdot.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+
+.bg {
+    background-color:  black;
+    
+}
+
+
+#header {
+    
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 50px;
+ color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+.header2{
+    font-family: 'Metrophobic', sans-serif;
+  font-size: 20px;
+ color: whitesmoke;
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+}
+
+
+#button{
+    border:none;
+    width:80px;
+    height: 50px;
+    background-color:azure;
+    border-radius: 10px;
+    
+    
+}
+#butttext{
+    font-family: sans-serif;
+}
+#button:hover{
+    background-color: ghostwhite;
+}
+.place{
+    display: grid;
+    place-items: center;
+}
+#speech{
+    border:none;
+    width:80px;
+    height: 50px;
+    background-color:azure;
+    border-radius: 10px;
+    margin-top: 15px;
+    
+}
+#speech:hover{
+    background-color: ghostwhite;
+}
+
+
+.genq{
+    font-size: 30px;
+    color: whitesmoke;
+    background-color:rgba(0,0,0, 0.8);
+   
+    
+    font-family: 'Metrophobic', sans-serif;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+.align{
+   display: grid;
+    place-items: center;
+    
+}
+
+#drake{
+
+  
+  
+    display: grid;
+    place-items: bottom;
+    
+}
+
+
+#center{
+   display:grid;
+    grid-template-rows: auto 1fr auto;
+}  
+
+
+#disclaimer{
+font-family: Gadget;
+  font-size: 12px;
+ color: whitesmoke;
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+}
+
+
+#em{
+    width: 300px;
+    height: 300px;
+    float: right;
+    place-items: bottom;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    filter:drop-shadow(1px 1px 1px gray);
+}
+#about{
+    width: 300px;
+    height: 300px;
+    
+    
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    filter:drop-shadow(1px 1px 1px gray);
+}
+div.test{
+   display: grid;
+   float: right;
+   place-items: top;
+  padding-left: 1500px;
+}
+#button, #speech{
+    font-family: 'Metrophobic', sans-serif;
+}
+
+@media (max-width: 500px){
+
+#em{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    place-items: bottom;
+
+    
+}
+
+
+div.test{
+    width: 100%;
+   height:100%;
+    display: grid;
+    place-items: bottom;
+    padding-left: 10px;
+}
+
+#button, #speech{
+    width: 100%;
+    font-size: 18px;;
+}
+#drake{
+    width: 50%;
+    height:50%;
+}
+#disclaimer{
+    
+    font-size: 17px;
+    filter:drop-shadow(2px 2px 2px black);
+}
+
+}
